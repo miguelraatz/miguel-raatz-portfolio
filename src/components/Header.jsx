@@ -1,14 +1,6 @@
 import { AiOutlineMenu } from 'react-icons/ai'
 
 export default function Header () {
-  let menuIcon = document.querySelector('#menu-icon');
-  let navbar = document.querySelector('.navbar');
-
-  menuIcon.onClick = () => {
-    menuIcon.classList.toogle('bx-x');
-    navbar.classList.toogle('active')
-  };
-
   return (
     <header className="header">
       <div className="container-name">
