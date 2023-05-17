@@ -58,11 +58,13 @@ section {
 .first-name {
   color: white;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .second-name {
   color: rgb(2, 89, 160);
   cursor: pointer;
+  font-size: 20px;
 }
 
 .square {
@@ -194,6 +196,7 @@ span {
 .about-content h2 {
   text-align: center;
   line-height: 1.2;
+  margin-right: 360px;
 }
 
 .about-content h3 {
@@ -360,7 +363,18 @@ span {
   }
 
   .navbar a {
-    font-size: 2rem;
-    margin: 3rem 0;
+    font-size: 1.5rem;
+    gap: .5rem;
+  }
+
+  .first-name {
+    font-size: 12px;
+  }
+  .second-name {
+    font-size: 12px;
+  }
+
+  .about-content h2 {
+    margin-right: 155px;
   }
 }
