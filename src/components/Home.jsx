@@ -26,7 +26,7 @@ export default function Home () {
       <div className="home-content">
         <h3>Olá, eu sou</h3>
         <h1>Miguel Raatz</h1>
-        <h3>E sou <span className="dev-full">Desenvolvedor Full-Stack</span></h3>
+        <h3>Sou <span className="dev-full">Desenvolvedor Web Full-Stack</span></h3>
         <div className="social-media">
           <a
           href="https://www.linkedin.com/in/miguelraatz/"
