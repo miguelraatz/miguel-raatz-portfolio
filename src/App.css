@@ -477,8 +477,7 @@ span {
   }
 
   .portfolio-container .portfolio-box {
-    height: 400px;
-    height: 90%;
+    width: 90%;
   }
 
   .portfolio-box h4 {
