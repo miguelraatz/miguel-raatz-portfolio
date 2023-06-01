@@ -252,7 +252,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 90%;
   border: 1px solid white;
 }
 
@@ -376,5 +376,110 @@ span {
 
   .about-content h2 {
     margin-right: 155px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .about div img {
+    width: 300px;
+  }
+
+  .about-content {
+    width: 360px;
+  }
+
+  .about-content h2 {
+    font-size: 30px;
+  }
+
+  .about-content h3 {
+    font-size: 16px;
+  }
+
+  .about-content p {
+    font-size: 13px;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+
+  .skills-content {
+    width: 360px;
+  }
+
+  .skill-icon {
+    width: 70px;
+    margin: 18px;
+  }
+
+  .portfolio h2 {
+    font-size: 30px;
+  }
+
+  .portfolio-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+
+  .portfolio-container .portfolio-box {
+    height: 400px;
+  }
+
+  .portfolio-box h4 {
+    font-size: 25px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .heading {
+    font-size: 30px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-box {
+    margin: 40px;
+    width: 300px;
+    display: flex;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer p {
+    font-size: 20px;
+  }
+
+  .footer .footer-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-iconTop {
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  .footer-icon {
+    font-size: 30px;
+    margin-right: 30px;
+
   }
 }

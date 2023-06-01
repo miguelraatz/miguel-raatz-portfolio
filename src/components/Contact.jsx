@@ -19,7 +19,7 @@ export default function Contact () {
 
         <div className="contact-box">
           <h2><CiLocationOn className="contact-icon"/> Localização</h2>
-          <h3>miguelraatzdev@gmail.com</h3>
+          <h3>Terra Roxa / PR</h3>
         </div>
       </div>
     </section>
