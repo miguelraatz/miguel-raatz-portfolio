@@ -2,6 +2,7 @@ import recipes from '../images/recipes-app.png';
 import trivia from '../images/trivia.png';
 import trybewallet from '../images/trybewallet.png';
 import nodeExpress from '../images/node-express.png';
+import typescript from '../images/typescript.png'
 
 import {
   SiJavascript,
@@ -12,6 +13,7 @@ import {
   SiExpress,
   SiDocker,
   SiSequelize,
+  SiTypescript,
 } from 'react-icons/si'
 
 export default function Projects () {
@@ -74,6 +76,34 @@ export default function Projects () {
           </div>
           <div className="buttons-projects">
             <a className="btn-download" rel="noreferrer" target="_blank" href="https://github.com/miguelraatz/react-redux-trivia">Repositório</a>
+          </div>
+        </div>
+
+        <div className="portfolio-box">
+          <h4>Trybe<span>Smith</span></h4>
+          <img className="img-project"src={nodeExpress} alt="imagem-app-recipe" />
+          <div className="skills-project">
+            <SiTypescript className="project-icon" />
+            <SiNodedotjs className="project-icon"/>
+            <SiMysql className="project-icon" />
+            <SiExpress className="project-icon" />
+            <SiDocker className="project-icon" />
+          </div>
+          <div className="buttons-projects">
+            <a className="btn-download" rel="noreferrer" target="_blank" href="https://github.com/miguelraatz/node-trybesmith">Repositório</a>
+          </div>
+        </div>
+
+        <div className="portfolio-box">
+          <h4>Trybers & <span>Dragons</span></h4>
+          <img className="img-project"src={typescript} alt="imagem-app-recipe" />
+          <div className="skills-project">
+            <SiTypescript className="project-icon" />
+            <SiDocker className="project-icon" />
+            <h3>SOLID / POO</h3>
+          </div>
+          <div className="buttons-projects">
+            <a className="btn-download" rel="noreferrer" target="_blank" href="https://github.com/miguelraatz/POO-Solid-trybers-and-dragons">Repositório</a>
           </div>
         </div>
 
