@@ -14,7 +14,7 @@ export default function Contact () {
 
         <div className="contact-box">
           <h2><AiOutlineMail className="contact-icon"/> Email</h2>
-          <h3>miguelraatzdev@gmail.com</h3>
+          <h3>miguelraatz_@hotmail.com</h3>
         </div>
 
         <div className="contact-box">
