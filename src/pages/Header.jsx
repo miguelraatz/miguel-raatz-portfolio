@@ -5,7 +5,6 @@ export default function Header () {
   const dropDownRef = useRef(null)
 
   const [isActive, setIsActive] = useState(false);
-  console.log(isActive)
 
   const onClick = () => setIsActive(!isActive);
 
