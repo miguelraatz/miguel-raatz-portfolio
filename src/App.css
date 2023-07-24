@@ -270,6 +270,7 @@ span {
   box-shadow: 0 0 1rem var(--second-bg-color);
   overflow: hidden;
   display: flex;
+  height: 550px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
