@@ -11,6 +11,7 @@ import {
   SiSequelize,
   SiTypescript,
   SiPython,
+  SiAngular,
 } from 'react-icons/si'
 
 export default function Skills () {
@@ -46,6 +47,11 @@ export default function Skills () {
         <div className="skill-container">
           <SiReact className="skill-icon" />
           <p>ReactJS</p>
+        </div>
+
+        <div className="skill-container">
+          <SiAngular className="skill-icon" />
+          <p>Angular</p>
         </div>
 
         <div className="skill-container">

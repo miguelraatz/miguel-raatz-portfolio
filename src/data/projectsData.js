@@ -4,6 +4,7 @@ import trivia from '../images/trivia.png'
 import blogs from '../images/node-express.png'
 import tfc from '../images/tfc.png'
 import python from '../images/python.png'
+import myfinances from '../images/my-finances.png'
 
 export const projects = [
   
@@ -22,6 +23,14 @@ export const projects = [
       linkDeploy: 'https://react-redux-trybe-wallet.vercel.app/',
       description: `Carteira de controle de gastos com conversor de moedas.`,
       skills: 'JavaScript, React, Redux, HTML, CSS'
+    },
+    {
+      name: 'My-Finances',
+      image: myfinances,
+      linkRepo: 'https://github.com/miguelraatz/angular-my-finances',
+      linkDeploy: '',
+      description: `Desenvolvido uma aplicação de gestão para finanças, nela você pode adicionar, editar, excluir alguma categoria ou despesa para controle. Algumas funcionalidades como soma por data também foram adicionadas.`,
+      skills: 'TypeScript, Angular-CLI, Angular Material'
     },
     {
       name: 'Trivia',

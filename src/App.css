@@ -245,7 +245,7 @@ span {
 .skill-icon {
   margin: 30px 30px 30px 30px;
   font-size: 80px;
-  color: var(--main-color);
+  color: white;
 }
 
 .portfolio {
@@ -308,7 +308,7 @@ span {
 
 .skills .skills-content .skill-container p {
   font-size: 14px;
-  color: var(--main-color);
+  color: white;
 }
 
 .skills-used {
